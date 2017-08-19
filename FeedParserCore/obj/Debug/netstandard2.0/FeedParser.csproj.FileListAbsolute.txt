@@ -1,0 +1,9 @@
+/Users/teeman/Projects/CheckSiteCore/FeedParser/obj/Debug/netstandard2.0/FeedParser.csprojResolveAssemblyReference.cache
+/Users/teeman/Projects/CheckSiteCore/FeedParser/obj/Debug/netstandard2.0/FeedParser.csproj.CoreCompileInputs.cache
+/Users/teeman/Projects/CheckSiteCore/FeedParser/obj/Debug/netstandard2.0/FeedParser.AssemblyInfoInputs.cache
+/Users/teeman/Projects/CheckSiteCore/FeedParser/obj/Debug/netstandard2.0/FeedParser.AssemblyInfo.cs
+/Users/teeman/Projects/CheckSiteCore/FeedParser/bin/Debug/netstandard2.0/FeedParser.deps.json
+/Users/teeman/Projects/CheckSiteCore/FeedParser/bin/Debug/netstandard2.0/FeedParser.dll
+/Users/teeman/Projects/CheckSiteCore/FeedParser/bin/Debug/netstandard2.0/FeedParser.pdb
+/Users/teeman/Projects/CheckSiteCore/FeedParser/obj/Debug/netstandard2.0/FeedParser.dll
+/Users/teeman/Projects/CheckSiteCore/FeedParser/obj/Debug/netstandard2.0/FeedParser.pdb

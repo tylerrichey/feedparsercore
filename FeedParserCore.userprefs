@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{90294071-A942-4E94-AB87-1851E3C8AC35}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FeedParserCore.Tests/TestRSS.cs">
+    <Files>
+      <File FileName="FeedParserCore/FeedParser.cs" Line="14" Column="99" />
+      <File FileName="FeedParserCore.Tests/TestAtom.cs" Line="45" Column="18" />
+      <File FileName="FeedParserCore.Tests/TestFeed.cs" Line="21" Column="28" />
+      <File FileName="FeedParserCore.Tests/TestRSS.cs" Line="15" Column="65" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="FeedParserCore" expanded="True">
+            <Node name="FeedParserCore.Tests" expanded="True">
+              <Node name="" expanded="True">
+                <Node name="" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/teeman/Projects/CheckSiteCore/FeedParser/FeedParserCore.Tests/Program.cs" relfile="FeedParserCore.Tests/Program.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FeedParserCore.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

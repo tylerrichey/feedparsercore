@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/teeman/.dotnet/store/|arch|/|tfm|",
+      "/Users/teeman/.nuget/packages"
+    ]
+  }
+}
