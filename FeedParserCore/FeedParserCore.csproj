@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>tylerrichey</Authors>
+    <PackageProjectUrl>https://github.com/tylerrichey/feedparsercore</PackageProjectUrl>
+    <Summary>RSS/Atom/RDF feed parser in .NET Standard 2.0</Summary>
+    <Title>FeedParserCore</Title>
+    <Description>RSS/Atom/RDF feed parser in .NET Standard 2.0</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <Owners>tylerrichey</Owners>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -9,5 +16,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Xml.XDocument" Version="4.3.0" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.1.276" />
   </ItemGroup>
 </Project>
