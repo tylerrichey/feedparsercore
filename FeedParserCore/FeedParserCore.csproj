@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	<PackageVersion>1.0.1</PackageVersion>
 	<PackageId>FeedParserCore</PackageId>
     <Authors>tylerrichey</Authors>
     <PackageProjectUrl>https://github.com/tylerrichey/feedparsercore</PackageProjectUrl>
