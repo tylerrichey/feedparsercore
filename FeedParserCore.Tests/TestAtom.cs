@@ -7,6 +7,7 @@ using FeedParserCore;
 namespace FeedParserCore.Tests
 {
     [TestClass]
+    [TestCategory("Atom")]
     public class TestAtom : TestFeed
     {
         public TestAtom()
