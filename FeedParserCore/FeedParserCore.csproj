@@ -9,11 +9,10 @@
     <Description>RSS/Atom/RDF feed parser in .NET Standard 2.0</Description>
     <PackOnBuild>true</PackOnBuild>
     <Owners>tylerrichey</Owners>
+    <PackageId>FeedParserCore</PackageId>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DocumentationFile></DocumentationFile>
-  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Xml.XDocument" Version="4.3.0" />
     <PackageReference Include="NuGet.Build.Packaging" Version="0.1.276" />
