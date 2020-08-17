@@ -14,7 +14,7 @@ namespace FeedParserCore.Tests
 		[TestMethod]
 		public void BasicTest()
 		{
-			Assert.AreEqual(expectedItems, _feed.Count());
+			Assert.AreEqual(expectedItems, _feed.Count);
 		}
 
 		[TestMethod]

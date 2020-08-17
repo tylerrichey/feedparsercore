@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Linq;
-using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FeedParserCore;
 
 namespace FeedParserCore.Tests
 {
@@ -13,8 +11,18 @@ namespace FeedParserCore.Tests
 		public TestRSS()
 		{
             expectedItems = 9;
-			_feed = FeedParser.Parse(@"Samples/testrss.rss", FeedType.RSS, true)
-							  .ToList();
+			_feed = FeedParser.ParseAsync("Samples/testrss.rss", FeedType.RSS)
+				.Result
+				.ToList();
 		}
+
+		[TestMethod]
+		public void TestBadNoPubDate()
+        {
+			var feed = FeedParser.ParseAsync("Samples/badrss.rss", FeedType.RSS)
+				.Result
+				.ToList();
+			Assert.IsTrue(feed.All(f => f.PublishDate == DateTime.MinValue));
+        }
 	}
 }

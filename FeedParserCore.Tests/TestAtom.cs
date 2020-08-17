@@ -1,8 +1,6 @@
-using System;
 using System.Linq;
-using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FeedParserCore;
 
 namespace FeedParserCore.Tests
 {
@@ -13,8 +11,16 @@ namespace FeedParserCore.Tests
         public TestAtom()
         {
             expectedItems = 25;
-            _feed = FeedParser.Parse(@"Samples/testatom.rss", FeedType.Atom, true)
-                              .ToList();
+            _feed = FeedParser.ParseAsync("Samples/testatom.rss", FeedType.Atom)
+                .Result
+                .ToList();
+        }
+
+        [TestMethod]
+        public async Task TestRemoteFeed()
+        {
+            var feed = await FeedParser.ParseAsync("https://github.com/security-advisories", FeedType.Atom);
+            Assert.IsTrue(feed.Any());
         }
     }
 }

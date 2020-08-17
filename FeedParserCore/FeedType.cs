@@ -21,6 +21,10 @@ namespace FeedParserCore
         /// <summary>
         /// Atom Syndication format.
         /// </summary>
-        Atom
+        Atom,
+        /// <summary>
+        /// Type for custom feed/item handlers
+        /// </summary>
+        Custom
     }
 }
