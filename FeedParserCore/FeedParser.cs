@@ -94,8 +94,8 @@ namespace FeedParserCore
         /// </summary>
         /// <param name="url">URL of feed</param>
         /// <param name="feedType">Type of feed to parse</param>
-        /// <param name="itemHandler">Custom handler to translate element to FeedItem</param>
-        public static async Task<IEnumerable<FeedItem>> ParseAsync(string url, FeedType feedType, Func<XElement, FeedItem> itemHandler)
+        /// <param name="itemHandler">Custom handler to translate element to T</param>
+        public static async Task<IEnumerable<T>> ParseAsync<T>(string url, FeedType feedType, Func<XElement, T> itemHandler)
         {
             var data = await GetXDocumentFromUrl(url);
             return await ParseAsync(data, feedType.GetFeedHandler(), itemHandler);
@@ -106,8 +106,8 @@ namespace FeedParserCore
         /// </summary>
         /// <param name="url">URL of feed</param>
         /// <param name="feedHandler">Custom handler to select items from XML document</param>
-        /// <param name="itemHandler">Custom handler to translate element to FeedItem</param>
-        public static async Task<IEnumerable<FeedItem>> ParseAsync(string url, Func<XDocument, IEnumerable<XElement>> feedHandler, Func<XElement, FeedItem> itemHandler)
+        /// <param name="itemHandler">Custom handler to translate element to T</param>
+        public static async Task<IEnumerable<T>> ParseAsync<T>(string url, Func<XDocument, IEnumerable<XElement>> feedHandler, Func<XElement, T> itemHandler)
         {
             var data = await GetXDocumentFromUrl(url);
             return await ParseAsync(data, feedHandler, itemHandler);
@@ -118,8 +118,8 @@ namespace FeedParserCore
         /// </summary>
         /// <param name="stream">Stream containing raw feed data</param>
         /// <param name="feedType">Type of feed to parse</param>
-        /// <param name="itemHandler">Custom handler to translate element to FeedItem</param>
-        public static async Task<IEnumerable<FeedItem>> ParseAsync(Stream stream, FeedType feedType, Func<XElement, FeedItem> itemHandler)
+        /// <param name="itemHandler">Custom handler to translate element to T</param>
+        public static async Task<IEnumerable<T>> ParseAsync<T>(Stream stream, FeedType feedType, Func<XElement, T> itemHandler)
         {
             var data = await GetXDocumentFromStream(stream);
             return await ParseAsync(data, feedType.GetFeedHandler(), itemHandler);
@@ -130,8 +130,8 @@ namespace FeedParserCore
         /// </summary>
         /// <param name="stream">Stream containing raw feed data</param>
         /// <param name="feedHandler">Custom handler to select items from XML document</param>
-        /// <param name="itemHandler">Custom handler to translate element to FeedItem</param>
-        public static async Task<IEnumerable<FeedItem>> ParseAsync(Stream stream, Func<XDocument, IEnumerable<XElement>> feedHandler, Func<XElement, FeedItem> itemHandler)
+        /// <param name="itemHandler">Custom handler to translate element to T</param>
+        public static async Task<IEnumerable<T>> ParseAsync<T>(Stream stream, Func<XDocument, IEnumerable<XElement>> feedHandler, Func<XElement, T> itemHandler)
         {
             var data = await GetXDocumentFromStream(stream);
             return await ParseAsync(data, feedHandler, itemHandler);
@@ -150,7 +150,6 @@ namespace FeedParserCore
         /// <param name="element"></param>
         /// <param name="fieldName"></param>
         /// <param name="attribute"></param>
-        /// <returns></returns>
         public static T GetElementValue<T>(this XElement element, string fieldName, string attribute = null)
         {
             var item = element.Elements()
@@ -171,7 +170,7 @@ namespace FeedParserCore
             }
         }
 
-        private static async Task<IEnumerable<FeedItem>> ParseAsync(XDocument xDocument, Func<XDocument, IEnumerable<XElement>> feedHandler, Func<XElement, FeedItem> itemHandler) =>
+        private static async Task<IEnumerable<T>> ParseAsync<T>(XDocument xDocument, Func<XDocument, IEnumerable<XElement>> feedHandler, Func<XElement, T> itemHandler) =>
             await Task.Run(() => feedHandler(xDocument).Select(itemHandler));
 
         private static Func<XElement, FeedItem> GetItemHandler(this FeedType feedType) => feedTypeItemMaps[feedType];
