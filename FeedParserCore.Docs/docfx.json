@@ -30,15 +30,7 @@
       }
     ],
     "resource": [ ],
-    "overwrite": [
-      {
-        "exclude": [
-          "obj/**",
-          "_site/**"
-        ]
-      }
-    ],
-    "dest": "_site",
+    "dest": "../docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
