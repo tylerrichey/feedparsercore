@@ -3,16 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>8.0</LangVersion>
-	  <PackageVersion>1.0.1</PackageVersion>
-	  <PackageId>FeedParserCore</PackageId>
-      <Authors>tylerrichey</Authors>
-      <PackageProjectUrl>https://github.com/tylerrichey/feedparsercore</PackageProjectUrl>
-      <Summary>RSS/Atom/RDF feed parser in .NET Standard 2.0</Summary>
-      <Title>FeedParserCore</Title>
-      <Description>RSS/Atom/RDF feed parser in .NET Standard 2.0</Description>
-      <PackOnBuild>true</PackOnBuild>
-      <Owners>tylerrichey</Owners>
-      <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+	<PackageVersion>1.0.1</PackageVersion>
+	<PackageId>FeedParserCore</PackageId>
+	<Authors>tylerrichey</Authors>
+	<PackageProjectUrl>https://github.com/tylerrichey/feedparsercore</PackageProjectUrl>
+	<Summary>RSS/Atom/RDF feed parser in .NET Standard 2.0</Summary>
+	<Title>FeedParserCore</Title>
+	<Description>RSS/Atom/RDF feed parser in .NET Standard 2.0</Description>
+	<PackOnBuild>true</PackOnBuild>
+	<Owners>tylerrichey</Owners>
+	<PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
