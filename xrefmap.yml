@@ -1,0 +1,385 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: FeedParserCore
+  name: FeedParserCore
+  href: docs/FeedParserCore.html
+  commentId: N:FeedParserCore
+  fullName: FeedParserCore
+  nameWithType: FeedParserCore
+- uid: FeedParserCore.FeedItem
+  name: FeedItem
+  href: docs/FeedParserCore.FeedItem.html
+  commentId: T:FeedParserCore.FeedItem
+  fullName: FeedParserCore.FeedItem
+  nameWithType: FeedItem
+- uid: FeedParserCore.FeedItem.Content
+  name: Content
+  href: docs/FeedParserCore.FeedItem.html#FeedParserCore_FeedItem_Content
+  commentId: P:FeedParserCore.FeedItem.Content
+  fullName: FeedParserCore.FeedItem.Content
+  nameWithType: FeedItem.Content
+- uid: FeedParserCore.FeedItem.Content*
+  name: Content
+  href: docs/FeedParserCore.FeedItem.html#FeedParserCore_FeedItem_Content_
+  commentId: Overload:FeedParserCore.FeedItem.Content
+  isSpec: "True"
+  fullName: FeedParserCore.FeedItem.Content
+  nameWithType: FeedItem.Content
+- uid: FeedParserCore.FeedItem.Link
+  name: Link
+  href: docs/FeedParserCore.FeedItem.html#FeedParserCore_FeedItem_Link
+  commentId: P:FeedParserCore.FeedItem.Link
+  fullName: FeedParserCore.FeedItem.Link
+  nameWithType: FeedItem.Link
+- uid: FeedParserCore.FeedItem.Link*
+  name: Link
+  href: docs/FeedParserCore.FeedItem.html#FeedParserCore_FeedItem_Link_
+  commentId: Overload:FeedParserCore.FeedItem.Link
+  isSpec: "True"
+  fullName: FeedParserCore.FeedItem.Link
+  nameWithType: FeedItem.Link
+- uid: FeedParserCore.FeedItem.PublishDate
+  name: PublishDate
+  href: docs/FeedParserCore.FeedItem.html#FeedParserCore_FeedItem_PublishDate
+  commentId: P:FeedParserCore.FeedItem.PublishDate
+  fullName: FeedParserCore.FeedItem.PublishDate
+  nameWithType: FeedItem.PublishDate
+- uid: FeedParserCore.FeedItem.PublishDate*
+  name: PublishDate
+  href: docs/FeedParserCore.FeedItem.html#FeedParserCore_FeedItem_PublishDate_
+  commentId: Overload:FeedParserCore.FeedItem.PublishDate
+  isSpec: "True"
+  fullName: FeedParserCore.FeedItem.PublishDate
+  nameWithType: FeedItem.PublishDate
+- uid: FeedParserCore.FeedItem.Title
+  name: Title
+  href: docs/FeedParserCore.FeedItem.html#FeedParserCore_FeedItem_Title
+  commentId: P:FeedParserCore.FeedItem.Title
+  fullName: FeedParserCore.FeedItem.Title
+  nameWithType: FeedItem.Title
+- uid: FeedParserCore.FeedItem.Title*
+  name: Title
+  href: docs/FeedParserCore.FeedItem.html#FeedParserCore_FeedItem_Title_
+  commentId: Overload:FeedParserCore.FeedItem.Title
+  isSpec: "True"
+  fullName: FeedParserCore.FeedItem.Title
+  nameWithType: FeedItem.Title
+- uid: FeedParserCore.FeedParser
+  name: FeedParser
+  href: docs/FeedParserCore.FeedParser.html
+  commentId: T:FeedParserCore.FeedParser
+  fullName: FeedParserCore.FeedParser
+  nameWithType: FeedParser
+- uid: FeedParserCore.FeedParser.GetElementValue*
+  name: GetElementValue
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_GetElementValue_
+  commentId: Overload:FeedParserCore.FeedParser.GetElementValue
+  isSpec: "True"
+  fullName: FeedParserCore.FeedParser.GetElementValue
+  nameWithType: FeedParser.GetElementValue
+- uid: FeedParserCore.FeedParser.GetElementValue``1(XElement,System.String,System.String)
+  name: GetElementValue<T>(XElement, String, String)
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_GetElementValue__1_XElement_System_String_System_String_
+  commentId: M:FeedParserCore.FeedParser.GetElementValue``1(XElement,System.String,System.String)
+  name.vb: GetElementValue(Of T)(XElement, String, String)
+  fullName: FeedParserCore.FeedParser.GetElementValue<T>(XElement, System.String, System.String)
+  fullName.vb: FeedParserCore.FeedParser.GetElementValue(Of T)(XElement, System.String, System.String)
+  nameWithType: FeedParser.GetElementValue<T>(XElement, String, String)
+  nameWithType.vb: FeedParser.GetElementValue(Of T)(XElement, String, String)
+- uid: FeedParserCore.FeedParser.ParseAsync(Stream,FeedParserCore.FeedType)
+  name: ParseAsync(Stream, FeedType)
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_ParseAsync_Stream_FeedParserCore_FeedType_
+  commentId: M:FeedParserCore.FeedParser.ParseAsync(Stream,FeedParserCore.FeedType)
+  fullName: FeedParserCore.FeedParser.ParseAsync(Stream, FeedParserCore.FeedType)
+  nameWithType: FeedParser.ParseAsync(Stream, FeedType)
+- uid: FeedParserCore.FeedParser.ParseAsync(System.String,FeedParserCore.FeedType)
+  name: ParseAsync(String, FeedType)
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_ParseAsync_System_String_FeedParserCore_FeedType_
+  commentId: M:FeedParserCore.FeedParser.ParseAsync(System.String,FeedParserCore.FeedType)
+  fullName: FeedParserCore.FeedParser.ParseAsync(System.String, FeedParserCore.FeedType)
+  nameWithType: FeedParser.ParseAsync(String, FeedType)
+- uid: FeedParserCore.FeedParser.ParseAsync*
+  name: ParseAsync
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_ParseAsync_
+  commentId: Overload:FeedParserCore.FeedParser.ParseAsync
+  isSpec: "True"
+  fullName: FeedParserCore.FeedParser.ParseAsync
+  nameWithType: FeedParser.ParseAsync
+- uid: FeedParserCore.FeedParser.ParseAsync``1(Stream,FeedParserCore.FeedType,Func{XElement,``0})
+  name: ParseAsync<T>(Stream, FeedType, Func<XElement, T>)
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_ParseAsync__1_Stream_FeedParserCore_FeedType_Func_XElement___0__
+  commentId: M:FeedParserCore.FeedParser.ParseAsync``1(Stream,FeedParserCore.FeedType,Func{XElement,``0})
+  name.vb: ParseAsync(Of T)(Stream, FeedType, Func(Of XElement, T))
+  fullName: FeedParserCore.FeedParser.ParseAsync<T>(Stream, FeedParserCore.FeedType, Func<XElement, T>)
+  fullName.vb: FeedParserCore.FeedParser.ParseAsync(Of T)(Stream, FeedParserCore.FeedType, Func(Of XElement, T))
+  nameWithType: FeedParser.ParseAsync<T>(Stream, FeedType, Func<XElement, T>)
+  nameWithType.vb: FeedParser.ParseAsync(Of T)(Stream, FeedType, Func(Of XElement, T))
+- uid: FeedParserCore.FeedParser.ParseAsync``1(Stream,Func{XDocument,IEnumerable{XElement}},Func{XElement,``0})
+  name: ParseAsync<T>(Stream, Func<XDocument, IEnumerable<XElement>>, Func<XElement, T>)
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_ParseAsync__1_Stream_Func_XDocument_IEnumerable_XElement___Func_XElement___0__
+  commentId: M:FeedParserCore.FeedParser.ParseAsync``1(Stream,Func{XDocument,IEnumerable{XElement}},Func{XElement,``0})
+  name.vb: ParseAsync(Of T)(Stream, Func(Of XDocument, IEnumerable(Of XElement)), Func(Of XElement, T))
+  fullName: FeedParserCore.FeedParser.ParseAsync<T>(Stream, Func<XDocument, IEnumerable<XElement>>, Func<XElement, T>)
+  fullName.vb: FeedParserCore.FeedParser.ParseAsync(Of T)(Stream, Func(Of XDocument, IEnumerable(Of XElement)), Func(Of XElement, T))
+  nameWithType: FeedParser.ParseAsync<T>(Stream, Func<XDocument, IEnumerable<XElement>>, Func<XElement, T>)
+  nameWithType.vb: FeedParser.ParseAsync(Of T)(Stream, Func(Of XDocument, IEnumerable(Of XElement)), Func(Of XElement, T))
+- uid: FeedParserCore.FeedParser.ParseAsync``1(System.String,FeedParserCore.FeedType,Func{XElement,``0})
+  name: ParseAsync<T>(String, FeedType, Func<XElement, T>)
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_ParseAsync__1_System_String_FeedParserCore_FeedType_Func_XElement___0__
+  commentId: M:FeedParserCore.FeedParser.ParseAsync``1(System.String,FeedParserCore.FeedType,Func{XElement,``0})
+  name.vb: ParseAsync(Of T)(String, FeedType, Func(Of XElement, T))
+  fullName: FeedParserCore.FeedParser.ParseAsync<T>(System.String, FeedParserCore.FeedType, Func<XElement, T>)
+  fullName.vb: FeedParserCore.FeedParser.ParseAsync(Of T)(System.String, FeedParserCore.FeedType, Func(Of XElement, T))
+  nameWithType: FeedParser.ParseAsync<T>(String, FeedType, Func<XElement, T>)
+  nameWithType.vb: FeedParser.ParseAsync(Of T)(String, FeedType, Func(Of XElement, T))
+- uid: FeedParserCore.FeedParser.ParseAsync``1(System.String,Func{XDocument,IEnumerable{XElement}},Func{XElement,``0})
+  name: ParseAsync<T>(String, Func<XDocument, IEnumerable<XElement>>, Func<XElement, T>)
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_ParseAsync__1_System_String_Func_XDocument_IEnumerable_XElement___Func_XElement___0__
+  commentId: M:FeedParserCore.FeedParser.ParseAsync``1(System.String,Func{XDocument,IEnumerable{XElement}},Func{XElement,``0})
+  name.vb: ParseAsync(Of T)(String, Func(Of XDocument, IEnumerable(Of XElement)), Func(Of XElement, T))
+  fullName: FeedParserCore.FeedParser.ParseAsync<T>(System.String, Func<XDocument, IEnumerable<XElement>>, Func<XElement, T>)
+  fullName.vb: FeedParserCore.FeedParser.ParseAsync(Of T)(System.String, Func(Of XDocument, IEnumerable(Of XElement)), Func(Of XElement, T))
+  nameWithType: FeedParser.ParseAsync<T>(String, Func<XDocument, IEnumerable<XElement>>, Func<XElement, T>)
+  nameWithType.vb: FeedParser.ParseAsync(Of T)(String, Func(Of XDocument, IEnumerable(Of XElement)), Func(Of XElement, T))
+- uid: FeedParserCore.FeedParser.SetHttpClient(HttpClient)
+  name: SetHttpClient(HttpClient)
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_SetHttpClient_HttpClient_
+  commentId: M:FeedParserCore.FeedParser.SetHttpClient(HttpClient)
+  fullName: FeedParserCore.FeedParser.SetHttpClient(HttpClient)
+  nameWithType: FeedParser.SetHttpClient(HttpClient)
+- uid: FeedParserCore.FeedParser.SetHttpClient*
+  name: SetHttpClient
+  href: docs/FeedParserCore.FeedParser.html#FeedParserCore_FeedParser_SetHttpClient_
+  commentId: Overload:FeedParserCore.FeedParser.SetHttpClient
+  isSpec: "True"
+  fullName: FeedParserCore.FeedParser.SetHttpClient
+  nameWithType: FeedParser.SetHttpClient
+- uid: FeedParserCore.FeedType
+  name: FeedType
+  href: docs/FeedParserCore.FeedType.html
+  commentId: T:FeedParserCore.FeedType
+  fullName: FeedParserCore.FeedType
+  nameWithType: FeedType
+- uid: FeedParserCore.FeedType.Atom
+  name: Atom
+  href: docs/FeedParserCore.FeedType.html#FeedParserCore_FeedType_Atom
+  commentId: F:FeedParserCore.FeedType.Atom
+  fullName: FeedParserCore.FeedType.Atom
+  nameWithType: FeedType.Atom
+- uid: FeedParserCore.FeedType.Custom
+  name: Custom
+  href: docs/FeedParserCore.FeedType.html#FeedParserCore_FeedType_Custom
+  commentId: F:FeedParserCore.FeedType.Custom
+  fullName: FeedParserCore.FeedType.Custom
+  nameWithType: FeedType.Custom
+- uid: FeedParserCore.FeedType.RDF
+  name: RDF
+  href: docs/FeedParserCore.FeedType.html#FeedParserCore_FeedType_RDF
+  commentId: F:FeedParserCore.FeedType.RDF
+  fullName: FeedParserCore.FeedType.RDF
+  nameWithType: FeedType.RDF
+- uid: FeedParserCore.FeedType.RSS
+  name: RSS
+  href: docs/FeedParserCore.FeedType.html#FeedParserCore_FeedType_RSS
+  commentId: F:FeedParserCore.FeedType.RSS
+  fullName: FeedParserCore.FeedType.RSS
+  nameWithType: FeedType.RSS
+- uid: FeedParserCore.Tests
+  name: FeedParserCore.Tests
+  href: docs/FeedParserCore.Tests.html
+  commentId: N:FeedParserCore.Tests
+  fullName: FeedParserCore.Tests
+  nameWithType: FeedParserCore.Tests
+- uid: FeedParserCore.Tests.TestAtom
+  name: TestAtom
+  href: docs/FeedParserCore.Tests.TestAtom.html
+  commentId: T:FeedParserCore.Tests.TestAtom
+  fullName: FeedParserCore.Tests.TestAtom
+  nameWithType: TestAtom
+- uid: FeedParserCore.Tests.TestAtom.#ctor
+  name: TestAtom()
+  href: docs/FeedParserCore.Tests.TestAtom.html#FeedParserCore_Tests_TestAtom__ctor
+  commentId: M:FeedParserCore.Tests.TestAtom.#ctor
+  fullName: FeedParserCore.Tests.TestAtom.TestAtom()
+  nameWithType: TestAtom.TestAtom()
+- uid: FeedParserCore.Tests.TestAtom.#ctor*
+  name: TestAtom
+  href: docs/FeedParserCore.Tests.TestAtom.html#FeedParserCore_Tests_TestAtom__ctor_
+  commentId: Overload:FeedParserCore.Tests.TestAtom.#ctor
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestAtom.TestAtom
+  nameWithType: TestAtom.TestAtom
+- uid: FeedParserCore.Tests.TestAtom.TestRemoteFeed
+  name: TestRemoteFeed()
+  href: docs/FeedParserCore.Tests.TestAtom.html#FeedParserCore_Tests_TestAtom_TestRemoteFeed
+  commentId: M:FeedParserCore.Tests.TestAtom.TestRemoteFeed
+  fullName: FeedParserCore.Tests.TestAtom.TestRemoteFeed()
+  nameWithType: TestAtom.TestRemoteFeed()
+- uid: FeedParserCore.Tests.TestAtom.TestRemoteFeed*
+  name: TestRemoteFeed
+  href: docs/FeedParserCore.Tests.TestAtom.html#FeedParserCore_Tests_TestAtom_TestRemoteFeed_
+  commentId: Overload:FeedParserCore.Tests.TestAtom.TestRemoteFeed
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestAtom.TestRemoteFeed
+  nameWithType: TestAtom.TestRemoteFeed
+- uid: FeedParserCore.Tests.TestCustom
+  name: TestCustom
+  href: docs/FeedParserCore.Tests.TestCustom.html
+  commentId: T:FeedParserCore.Tests.TestCustom
+  fullName: FeedParserCore.Tests.TestCustom
+  nameWithType: TestCustom
+- uid: FeedParserCore.Tests.TestCustom.FeedHanlder
+  name: FeedHanlder()
+  href: docs/FeedParserCore.Tests.TestCustom.html#FeedParserCore_Tests_TestCustom_FeedHanlder
+  commentId: M:FeedParserCore.Tests.TestCustom.FeedHanlder
+  fullName: FeedParserCore.Tests.TestCustom.FeedHanlder()
+  nameWithType: TestCustom.FeedHanlder()
+- uid: FeedParserCore.Tests.TestCustom.FeedHanlder*
+  name: FeedHanlder
+  href: docs/FeedParserCore.Tests.TestCustom.html#FeedParserCore_Tests_TestCustom_FeedHanlder_
+  commentId: Overload:FeedParserCore.Tests.TestCustom.FeedHanlder
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestCustom.FeedHanlder
+  nameWithType: TestCustom.FeedHanlder
+- uid: FeedParserCore.Tests.TestCustom.ItemHandler
+  name: ItemHandler()
+  href: docs/FeedParserCore.Tests.TestCustom.html#FeedParserCore_Tests_TestCustom_ItemHandler
+  commentId: M:FeedParserCore.Tests.TestCustom.ItemHandler
+  fullName: FeedParserCore.Tests.TestCustom.ItemHandler()
+  nameWithType: TestCustom.ItemHandler()
+- uid: FeedParserCore.Tests.TestCustom.ItemHandler*
+  name: ItemHandler
+  href: docs/FeedParserCore.Tests.TestCustom.html#FeedParserCore_Tests_TestCustom_ItemHandler_
+  commentId: Overload:FeedParserCore.Tests.TestCustom.ItemHandler
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestCustom.ItemHandler
+  nameWithType: TestCustom.ItemHandler
+- uid: FeedParserCore.Tests.TestFeed
+  name: TestFeed
+  href: docs/FeedParserCore.Tests.TestFeed.html
+  commentId: T:FeedParserCore.Tests.TestFeed
+  fullName: FeedParserCore.Tests.TestFeed
+  nameWithType: TestFeed
+- uid: FeedParserCore.Tests.TestFeed._feed
+  name: _feed
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed__feed
+  commentId: F:FeedParserCore.Tests.TestFeed._feed
+  fullName: FeedParserCore.Tests.TestFeed._feed
+  nameWithType: TestFeed._feed
+- uid: FeedParserCore.Tests.TestFeed.BasicTest
+  name: BasicTest()
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_BasicTest
+  commentId: M:FeedParserCore.Tests.TestFeed.BasicTest
+  fullName: FeedParserCore.Tests.TestFeed.BasicTest()
+  nameWithType: TestFeed.BasicTest()
+- uid: FeedParserCore.Tests.TestFeed.BasicTest*
+  name: BasicTest
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_BasicTest_
+  commentId: Overload:FeedParserCore.Tests.TestFeed.BasicTest
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestFeed.BasicTest
+  nameWithType: TestFeed.BasicTest
+- uid: FeedParserCore.Tests.TestFeed.expectedItems
+  name: expectedItems
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_expectedItems
+  commentId: F:FeedParserCore.Tests.TestFeed.expectedItems
+  fullName: FeedParserCore.Tests.TestFeed.expectedItems
+  nameWithType: TestFeed.expectedItems
+- uid: FeedParserCore.Tests.TestFeed.TestContentNoBlank
+  name: TestContentNoBlank()
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_TestContentNoBlank
+  commentId: M:FeedParserCore.Tests.TestFeed.TestContentNoBlank
+  fullName: FeedParserCore.Tests.TestFeed.TestContentNoBlank()
+  nameWithType: TestFeed.TestContentNoBlank()
+- uid: FeedParserCore.Tests.TestFeed.TestContentNoBlank*
+  name: TestContentNoBlank
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_TestContentNoBlank_
+  commentId: Overload:FeedParserCore.Tests.TestFeed.TestContentNoBlank
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestFeed.TestContentNoBlank
+  nameWithType: TestFeed.TestContentNoBlank
+- uid: FeedParserCore.Tests.TestFeed.TestLinkNoBlank
+  name: TestLinkNoBlank()
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_TestLinkNoBlank
+  commentId: M:FeedParserCore.Tests.TestFeed.TestLinkNoBlank
+  fullName: FeedParserCore.Tests.TestFeed.TestLinkNoBlank()
+  nameWithType: TestFeed.TestLinkNoBlank()
+- uid: FeedParserCore.Tests.TestFeed.TestLinkNoBlank*
+  name: TestLinkNoBlank
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_TestLinkNoBlank_
+  commentId: Overload:FeedParserCore.Tests.TestFeed.TestLinkNoBlank
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestFeed.TestLinkNoBlank
+  nameWithType: TestFeed.TestLinkNoBlank
+- uid: FeedParserCore.Tests.TestFeed.TestPublishedNoMin
+  name: TestPublishedNoMin()
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_TestPublishedNoMin
+  commentId: M:FeedParserCore.Tests.TestFeed.TestPublishedNoMin
+  fullName: FeedParserCore.Tests.TestFeed.TestPublishedNoMin()
+  nameWithType: TestFeed.TestPublishedNoMin()
+- uid: FeedParserCore.Tests.TestFeed.TestPublishedNoMin*
+  name: TestPublishedNoMin
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_TestPublishedNoMin_
+  commentId: Overload:FeedParserCore.Tests.TestFeed.TestPublishedNoMin
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestFeed.TestPublishedNoMin
+  nameWithType: TestFeed.TestPublishedNoMin
+- uid: FeedParserCore.Tests.TestFeed.TestTitleNotBlank
+  name: TestTitleNotBlank()
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_TestTitleNotBlank
+  commentId: M:FeedParserCore.Tests.TestFeed.TestTitleNotBlank
+  fullName: FeedParserCore.Tests.TestFeed.TestTitleNotBlank()
+  nameWithType: TestFeed.TestTitleNotBlank()
+- uid: FeedParserCore.Tests.TestFeed.TestTitleNotBlank*
+  name: TestTitleNotBlank
+  href: docs/FeedParserCore.Tests.TestFeed.html#FeedParserCore_Tests_TestFeed_TestTitleNotBlank_
+  commentId: Overload:FeedParserCore.Tests.TestFeed.TestTitleNotBlank
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestFeed.TestTitleNotBlank
+  nameWithType: TestFeed.TestTitleNotBlank
+- uid: FeedParserCore.Tests.TestRSS
+  name: TestRSS
+  href: docs/FeedParserCore.Tests.TestRSS.html
+  commentId: T:FeedParserCore.Tests.TestRSS
+  fullName: FeedParserCore.Tests.TestRSS
+  nameWithType: TestRSS
+- uid: FeedParserCore.Tests.TestRSS.#ctor
+  name: TestRSS()
+  href: docs/FeedParserCore.Tests.TestRSS.html#FeedParserCore_Tests_TestRSS__ctor
+  commentId: M:FeedParserCore.Tests.TestRSS.#ctor
+  fullName: FeedParserCore.Tests.TestRSS.TestRSS()
+  nameWithType: TestRSS.TestRSS()
+- uid: FeedParserCore.Tests.TestRSS.#ctor*
+  name: TestRSS
+  href: docs/FeedParserCore.Tests.TestRSS.html#FeedParserCore_Tests_TestRSS__ctor_
+  commentId: Overload:FeedParserCore.Tests.TestRSS.#ctor
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestRSS.TestRSS
+  nameWithType: TestRSS.TestRSS
+- uid: FeedParserCore.Tests.TestRSS.TestBadNoPubDate
+  name: TestBadNoPubDate()
+  href: docs/FeedParserCore.Tests.TestRSS.html#FeedParserCore_Tests_TestRSS_TestBadNoPubDate
+  commentId: M:FeedParserCore.Tests.TestRSS.TestBadNoPubDate
+  fullName: FeedParserCore.Tests.TestRSS.TestBadNoPubDate()
+  nameWithType: TestRSS.TestBadNoPubDate()
+- uid: FeedParserCore.Tests.TestRSS.TestBadNoPubDate*
+  name: TestBadNoPubDate
+  href: docs/FeedParserCore.Tests.TestRSS.html#FeedParserCore_Tests_TestRSS_TestBadNoPubDate_
+  commentId: Overload:FeedParserCore.Tests.TestRSS.TestBadNoPubDate
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestRSS.TestBadNoPubDate
+  nameWithType: TestRSS.TestBadNoPubDate
+- uid: FeedParserCore.Tests.TestRSS.TestStream
+  name: TestStream()
+  href: docs/FeedParserCore.Tests.TestRSS.html#FeedParserCore_Tests_TestRSS_TestStream
+  commentId: M:FeedParserCore.Tests.TestRSS.TestStream
+  fullName: FeedParserCore.Tests.TestRSS.TestStream()
+  nameWithType: TestRSS.TestStream()
+- uid: FeedParserCore.Tests.TestRSS.TestStream*
+  name: TestStream
+  href: docs/FeedParserCore.Tests.TestRSS.html#FeedParserCore_Tests_TestRSS_TestStream_
+  commentId: Overload:FeedParserCore.Tests.TestRSS.TestStream
+  isSpec: "True"
+  fullName: FeedParserCore.Tests.TestRSS.TestStream
+  nameWithType: TestRSS.TestStream
