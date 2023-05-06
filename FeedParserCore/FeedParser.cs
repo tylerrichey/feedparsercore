@@ -13,7 +13,13 @@ namespace FeedParserCore
     /// </summary>
     public static class FeedParser
     {
-        private static HttpClient httpClient = new HttpClient();
+        private static HttpClient httpClient = SetupHttpClient();
+        private static HttpClient SetupHttpClient()
+        {
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.UserAgent.Add(new("FeedParserCore", "2.0.0"));
+            return httpClient;
+        }
 
         private static readonly Dictionary<FeedType, Func<XElement, FeedItem>> feedTypeItemMaps = new Dictionary<FeedType, Func<XElement, FeedItem>>
         {

@@ -22,5 +22,12 @@ namespace FeedParserCore.Tests
             var feed = await FeedParser.ParseAsync("https://github.com/security-advisories", FeedType.Atom);
             Assert.IsTrue(feed.Any());
         }
+
+        [TestMethod]
+        public async Task TestRemoteFeedTwo()
+        {
+            var feed = await FeedParser.ParseAsync("https://www.reddit.com/r/soccer/rising/.rss", FeedType.Atom);
+            Assert.IsTrue(feed.Any());
+        }
     }
 }
